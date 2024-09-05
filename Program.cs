@@ -41,20 +41,53 @@ using static System.Console;
 // WriteLine($"{number}->{a1*10+a3}");
 
 // task12
+// Clear();
+// Write("Введите число a: ");
+// int a = int.Parse(ReadLine());
+// Write("Введите число b: ");
+// int b = int.Parse(ReadLine());
+// float c = a % b;
+// if (c==0)
+//     {
+//         Write("кратно");
+
+//     }    
+//     else
+//     {
+//         Write($"не кратно, остаток {c}");
+//     }
+
+// task14
+// Clear();
+// Write("Введите число a: ");
+// int a = int.Parse(ReadLine());
+// if ((a % 7 == 0) & (a % 23 == 0))
+// {
+//     Write("да");
+// }
+// else
+// {
+//     Write("нет");
+// }
+
+// task16
 Clear();
 Write("Введите число a: ");
 int a = int.Parse(ReadLine());
 Write("Введите число b: ");
 int b = int.Parse(ReadLine());
-float c = a % b;
-if (c==0)
+if (a * a == b)
+{
+    Write("b квадрат a");
+}
+else
+{
+    if (b * b == a)
     {
-        Write("кратно");
-        
-    }    
+        Write("a квадрат b");
+    }
     else
     {
-        Write($"не кратно, остаток {c}");
+        Write("не является");
     }
-
-// task12
+}
