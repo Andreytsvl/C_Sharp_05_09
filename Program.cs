@@ -123,19 +123,103 @@ using static System.Console;
 // Задача 15: Напишите программу, 
 // которая принимает на вход цифру, обозначающую день недели,
 //  и проверяет, является ли этот день выходным.
-Clear();
-Write("Введите цифру, обозначающую день недели : ");
-int a = int.Parse(ReadLine());
-if ((a < 1)|| (a > 7))
+// Clear();
+// Write("Введите цифру, обозначающую день недели : ");
+// int a = int.Parse(ReadLine());
+// if ((a < 1)|| (a > 7))
+// {
+//     WriteLine("ошибка ввода");
+//     return;
+// }
+// if (5 < a)
+// {
+//     WriteLine("да");
+// }
+// else
+// {
+//     WriteLine("нет");
+// }
+
+// task17
+// Clear();
+// Write("Введите координату х, не равную нулю: ");
+// int x = int.Parse(ReadLine());
+// Write("Введите координату y, не равную нулю: ");
+// int y = int.Parse(ReadLine());
+// if ((x == 0) || (y == 0))
+// {
+//     WriteLine("ошибка ввода");
+//     return;
+// }
+// if ((x > 0) & (y > 0))
+// {
+//     WriteLine("первая четверть");
+//     return;
+// }
+// if ((x < 0) & (y > 0))
+// {
+//     WriteLine("вторая четверть");
+//     return;
+// }
+// if ((x < 0) & (y < 0))
+// {
+//     WriteLine("третья четверть");
+//     return;
+// }
+// else
+// {
+//     WriteLine("четвёртая четверть");
+// }
+
+// task18
+// Clear();
+// Write("Введите номер координатной четверти от 1 до 4: ");
+// int a = int.Parse(ReadLine());
+// if ((a < 1)|| (a > 4))
+// {
+//     WriteLine("ошибка ввода");
+//     return;
+// }
+// if (a==1)
+// {
+//     WriteLine("x>0; y>0");
+//     return;
+// }
+// if (a==2)
+// {
+//     WriteLine("x<0; y>0");
+//     return;
+// }
+// if (a==3)
+// {
+//     WriteLine("x<0; y<0");
+//     return;
+// }
+// else
+// {
+//     WriteLine("x>0; y<0");
+// }
+
+// task20
+// Clear();
+// Write("Введите координату первой точки х1: ");
+// int x1 = int.Parse(ReadLine());
+// Write("Введите координату первой точки y1: ");
+// int y1 = int.Parse(ReadLine());
+// Write("Введите координату второй точки х2: ");
+// int x2 = int.Parse(ReadLine());
+// Write("Введите координату второй точки y2: ");
+// int y2 = int.Parse(ReadLine());
+// double d = Math.Pow(((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2)),0.5);
+// Write($"Расстояние между точками: {d:f4}");
+
+// task22
+Console.Clear();
+Console.Write("Введите число a: ");
+int a = int.Parse(Console.ReadLine());
+int i = 1;
+while (i <= a)
 {
-    WriteLine("ошибка ввода");
-    return;
-}
-if (5 < a)
-{
-    WriteLine("да");
-}
-else
-{
-    WriteLine("нет");
+    Console.Write($"{i * i} ");
+    i = i + 1;
 }
