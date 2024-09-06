@@ -214,12 +214,66 @@ using static System.Console;
 // Write($"Расстояние между точками: {d:f4}");
 
 // task22
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// int i = 1;
+// while (i <= a)
+// {
+//     Console.Write($"{i * i} ");
+//     i = i + 1;
+// }
+
+// task19
+// Console.Clear();
+// Console.Write("Введите число a: ");
+// int a = int.Parse(Console.ReadLine());
+// if ((a < 10000) || (a > 99999))
+// {
+//     WriteLine("ошибка ввода");
+//     return;
+// }
+// int a1 = a / 10000;
+// a -= a1 * 10000;
+// int a2 = a / 1000;
+// a -= a2 * 1000;
+// int a3 = a / 100;
+// a -= a3 * 100;
+// int a4 = a / 10;
+// int a5 = a % 10;
+// if ((a1 == a5) && (a2 == a4))
+// {
+//     Console.Write("да");
+// }
+// else
+// {
+//     Console.Write("нет");
+// }
+
+// task21
+// Clear();
+// Write("Введите координату первой точки х1: ");
+// int x1 = int.Parse(ReadLine());
+// Write("Введите координату первой точки y1: ");
+// int y1 = int.Parse(ReadLine());
+// Write("Введите координату первой точки z1: ");
+// int z1 = int.Parse(ReadLine());
+// Write("Введите координату второй точки х2: ");
+// int x2 = int.Parse(ReadLine());
+// Write("Введите координату второй точки y2: ");
+// int y2 = int.Parse(ReadLine());
+// Write("Введите координату второй точки z2: ");
+// int z2 = int.Parse(ReadLine());
+// double d = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
+// Write($"Расстояние между точками: {d:f4}");
+
+// task23
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
 int i = 1;
 while (i <= a)
 {
-    Console.Write($"{i * i} ");
+    Console.Write($"{Math.Pow(i,3)} ");
     i = i + 1;
 }
