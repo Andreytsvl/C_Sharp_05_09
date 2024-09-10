@@ -15,7 +15,8 @@
 // Console.WriteLine(arr1[2]);
 // Console.WriteLine(arr1[4]);
 
-// task9
+// task9 напишите программу, которая выводит число из диапазона
+// 10  99 и показывет наиб. цифру числа
 using System;
 using static System.Console;
 
@@ -32,7 +33,7 @@ using static System.Console;
 //     WriteLine($"{number}->{a2}");
 // }
 
-// task11
+// task11 выводит случайное трёхзначное число и удаляет вторую цифру
 // Clear();
 // int  number = new Random().Next(100,1000);
 // int a1 = number/100;
@@ -40,7 +41,8 @@ using static System.Console;
 // int a3 = number%10;
 // WriteLine($"{number}->{a1*10+a3}");
 
-// task12
+// task12 проверяет, кратно ли второе число первому,
+// если нет, то выводит остаток от деления
 // Clear();
 // Write("Введите число a: ");
 // int a = int.Parse(ReadLine());
@@ -57,7 +59,7 @@ using static System.Console;
 //         Write($"не кратно, остаток {c}");
 //     }
 
-// task14
+// task14 проверяет, кратно ли одновременно 7 и 23
 // Clear();
 // Write("Введите число a: ");
 // int a = int.Parse(ReadLine());
@@ -70,7 +72,7 @@ using static System.Console;
 //     Write("нет");
 // }
 
-// task16
+// task16 проверяет, является ли одно квадратом другого
 // Clear();
 // Write("Введите число a: ");
 // int a = int.Parse(ReadLine());
@@ -200,7 +202,7 @@ using static System.Console;
 //     WriteLine("x>0; y<0");
 // }
 
-// task20
+// task20 ищет расстояние между точками
 // Clear();
 // Write("Введите координату первой точки х1: ");
 // int x1 = int.Parse(ReadLine());
@@ -213,7 +215,7 @@ using static System.Console;
 // double d = Math.Pow(((x1-x2)*(x1-x2) + (y1-y2)*(y1-y2)),0.5);
 // Write($"Расстояние между точками: {d:f4}");
 
-// task22
+// task22 выдаёт таблицу квадратов от 1 до Н
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -224,7 +226,7 @@ using static System.Console;
 //     i = i + 1;
 // }
 
-// task19
+// task19 проверяет число на палиндром
 // Console.Clear();
 // Console.Write("Введите число a: ");
 // int a = int.Parse(Console.ReadLine());
@@ -250,7 +252,7 @@ using static System.Console;
 //     Console.Write("нет");
 // }
 
-// task21
+// task21 расстояние между точками в пространстве
 // Clear();
 // Write("Введите координату первой точки х1: ");
 // int x1 = int.Parse(ReadLine());
@@ -267,7 +269,7 @@ using static System.Console;
 // double d = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
 // Write($"Расстояние между точками: {d:f4}");
 
-// task23
+// task23 таблица кубов от 1 до Н
 Console.Clear();
 Console.Write("Введите число a: ");
 int a = int.Parse(Console.ReadLine());
